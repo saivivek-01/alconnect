@@ -8,6 +8,4 @@ On the GitHub repository, only codes related to design and connections are avail
   3. Refer to the "Database_referral_screenshots" folder for the structural details of each table.
   4. Update the 'connection.php' file to align with the localhost configuration.
 
- The website was already globalized using the hosting of "000webhost" as the hosting platform, with domain "alconnect"
- The website is live at url 
- # https://alconnect.000webhostapp.com
+
