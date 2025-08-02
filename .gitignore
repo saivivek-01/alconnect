@@ -1,0 +1,28 @@
+# PHP dependencies
+vendor/
+
+# Logs and cache
+*.log
+*.cache
+
+# Environment and DB config
+*.env
+.env.*
+connection.php
+
+# SQL dump or initialization files
+*.sql
+init.sql
+
+# Docker configs
+docker-compose.yml
+
+# OS / IDE-specific
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Misc
+coverage/
