@@ -12,7 +12,7 @@ connection.php
 
 # SQL dump or initialization files
 *.sql
-init.sql
+alumni_register.sql
 
 # Docker configs
 docker-compose.yml
