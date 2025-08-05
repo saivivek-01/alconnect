@@ -1,11 +1,87 @@
-# alconnect
+# AL-connect 💼🧑‍🎓
 
-The ALCONNECT functions as a web-based database platform, facilitating the connection between current students and alumni who have graduated from a college. ALCONNECT features distinct portals for both alumni and students, ensuring that relevant details are accessible to both parties, fostering mutual interaction. I, M.Sai Vivek, played a pivotal role in designing and creating the website, serving as the technical incharge. The collaborative effort involved a team of 2nd-year Computer Science and Engineering students from Gudlavalleru College, we presented the project as part of a hackathon.
+AL-connect is a comprehensive alumni-student collaboration platform designed to facilitate mentorship, guidance, and real-world networking between college alumni and current students. Built with a secure and scalable PHP full-stack backend, the platform supports direct alumni interactions via LinkedIn, email, and contact options.
 
-On the GitHub repository, only codes related to design and connections are available due to the absence of database functionality. To implement the website with a database, users can connect it to a localhost and follow these steps:
-  1. Create a database named "alumni_register."
-  2. Establish three tables within the database: "alumni_record," "student_record," and "alumni_domains."
-  3. Refer to the "Database_referral_screenshots" folder for the structural details of each table.
-  4. Update the 'connection.php' file to align with the localhost configuration.
+> 🚀 Live at: [https://alconnect.begetter.me](https://alconnect.begetter.me)
 
+---
 
+## 📌 Features
+
+- 🧑‍🎓 Alumni-student mentorship system
+- 🔗 Direct LinkedIn, email, and phone contact support
+- 🔐 Secure authentication for both alumni and students
+- 📄 Admin dashboard with approval controls
+- 🔍 Smart profile search and filtering
+- 📱 Fully responsive, mobile-friendly UI
+
+---
+
+## 🏗️ Tech Stack
+
+### 🔹 Backend
+- PHP (Core, no framework)
+- MySQL
+- Apache Server
+
+### 🔹 Frontend
+- HTML5, CSS3, JavaScript
+- Bootstrap
+
+---
+
+## ☁️ Cloud & DevOps Skills Showcased
+
+This project demonstrates modern **cloud deployment** and **DevOps** practices using Amazon Web Services (AWS).
+
+### ✅ AWS Services Used
+
+| Service | Purpose |
+|--------|---------|
+| **ECS (Fargate)** | Serverless container deployment for scalable app hosting |
+| **ECR** | Secure container image storage |
+| **ALB (Application Load Balancer)** | Public traffic management and HTTPS routing |
+| **ACM (AWS Certificate Manager)** | SSL/TLS certificates for secure HTTPS |
+| **Route 53 + External DNS (Namecheap)** | Custom subdomain (`alconnect.begetter.me`) routing |
+| **CloudWatch** | Logs and monitoring |
+
+### 🛠️ DevOps & Deployment Flow
+
+- 🐳 Dockerized PHP Application
+- 🛳️ Container pushed to AWS ECR
+- ⚙️ Deployed to ECS with Fargate launch type (no EC2 management)
+- 🔁 Connected to ALB (port 80 + 443 listeners)
+- 🔐 HTTPS enabled with ACM certificates
+- 🌐 Subdomain mapped via Namecheap to ALB DNS (A record)
+
+---
+
+## 🔐 Security Practices
+
+- HTTPS enforced with redirect from HTTP
+- ACM certificate validation and renewal
+- ECS IAM roles with least privilege access
+- No hardcoded credentials or exposed ports
+
+---
+
+## 🧪 Future Improvements
+
+- Add CI/CD pipeline using GitHub Actions + ECS Blue/Green deployment
+- Switch to Aurora MySQL or RDS for production-grade database hosting
+- Enable CloudFront for faster global access
+
+---
+
+## 👨‍💻 Author
+
+**Sai Vivek**  
+B.Tech 2026 | Cloud and AI Enthusiast  
+GitHub: [@saivivek-01](https://github.com/saivivek-01)  
+Portfolio: [https://begetter.me](https://begetter.me)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
